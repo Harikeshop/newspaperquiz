@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap" rel="stylesheet">
+
     <style>
+
+        user-select: none;
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&family=Chilanka&family=Manjari:wght@100;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
 
         body{
         	background: black;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            
         }
 
-        #main{
+        #main li{
+
+            padding: 20px;
+            font: bold;
+            font-family: 'Gayathri', Bold;
+            font-size: 30px;
+
         	
         }
         </style>
@@ -18,10 +37,12 @@
 
     <title>Answers</title>
 </head>
-<body>
+<body onmousedown="return false" onselectstart="return false";>
 	<h1 style="text-align: center; color: red; background: black; font-family: 'Chilanka', cursive; font-size: 50px; padding: 10px;">
 		ഉത്തരങ്ങൾ
-	</h1>
+    </h1>
+    
+    
 
 	<hr style="color: red;">
 
@@ -29,10 +50,19 @@
         
 
         <p>
-            <li>Harikesh</li>
+            <li>ഉത്തരങ്ങൾ ഞായറാഴ്ചത്തെ ക്വിസ്സിന് ശേഷം പ്രസിദ്ധീകരിക്കും</li>
         </p>
 		
-	</div>
+    </div>
+
+    <script>
+    
+    $(document).ready(function() {
+        $('body').bind('cut copy', function(e) {
+            e.preventDefault();
+          });
+      });
+  </script>
     
 </body>
 </html>
