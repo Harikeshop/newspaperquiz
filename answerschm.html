@@ -14,10 +14,6 @@
 
         body{
         	background: black;
-            -webkit-user-select: none;
-            -webkit-touch-callout: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
             
         }
 
@@ -37,7 +33,7 @@
 
     <title>Answers</title>
 </head>
-<body onmousedown="return false" onselectstart="return false";>
+<body>
 	<h1 style="text-align: center; color: red; background: black; font-family: 'Chilanka', cursive; font-size: 50px; padding: 10px;">
 		ഉത്തരങ്ങൾ
     </h1>
@@ -53,16 +49,6 @@
             <li>ഉത്തരങ്ങൾ ഞായറാഴ്ചത്തെ ക്വിസ്സിന് ശേഷം പ്രസിദ്ധീകരിക്കും</li>
         </p>
 		
-    </div>
-
-    <script>
-    
-    $(document).ready(function() {
-        $('body').bind('cut copy', function(e) {
-            e.preventDefault();
-          });
-      });
-  </script>
-    
+    </div>   
 </body>
 </html>
