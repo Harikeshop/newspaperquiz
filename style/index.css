@@ -1,0 +1,58 @@
+body{
+
+    background-image: url('https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop');
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#panel{
+
+    width: 100%;
+    height: auto;
+    background-color: black;
+    opacity: 50%;
+}
+
+#panel:hover{
+    opacity: 80%;
+}
+
+#panel i{
+    color: red;
+    padding: 10px;
+    font-size: 50px;
+    opacity: 100%;
+    margin: 2.9304029304%;
+}
+
+#panel i:hover{
+    color: blue;
+
+}
+
+#main h1{
+
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-shadow: 5px 5px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+hr{
+    color: aliceblue;
+    height: 10px;
+    fill: black;
+}
+
+#tile{
+
+    margin: 10px;
+}
+
+#tile button{
+    background-image: url('https://t4.ftcdn.net/jpg/03/45/88/07/240_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg');
+    color: yellow;
+    
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        .reg {
+        margin: auto;
+        width: 80%;
+        height: 500px;
+         border: 3px solid #73AD21;
+         padding: 10px;
+         background-image: url('asset/Black.png');
+        }
+
+        .reg input{
+            width: 90%;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: none;
+            border-color: yellow;
+            color: yellow;
+        }
+
+        ::placeholder{
+
+            color: white;
+            font-size: 15px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reggister</title>
+</head>
+<body>
+    <div class="reg">
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"onload="if(submitted) {window.location='index.html';}"> </iframe> 
+        <script type="text/javascript">var submitted=false;</script>
+        <h3 style="text-align: center; color: aqua; font-size: 30px;">Register</h3>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd5t3od-lmJStHTfGOPfMw5_c_yjDe6uw39CVJ7oPtz7D5DfA/formResponse" target="_self" method="POST">
+            
+            <input type="text" name="entry.1259822281" placeholder="Name" required>
+            <input type="text" name="entry.276273220" placeholder="School" required>
+            <input type="text" name="entry.2091893400" placeholder="Class" required>
+            <input type="number" name="entry.1875836614" placeholder="Phonenumber" required>
+            <input type="email" name="entry.579290064" placeholder="Email" required>
+            <input type="submit" name="#" placeholder="Submit" required style="margin-left: 20px;">
+        </form>
+      </div>
+</body>
+</html>
